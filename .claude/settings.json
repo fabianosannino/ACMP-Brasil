@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash",
+      "Read",
+      "Edit",
+      "Write",
+      "NotebookEdit",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Agent",
+      "mcp__github",
+      "mcp__Supabase",
+      "mcp__Vercel"
+    ],
+    "ask": [],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(**/*service_role*)"
+    ]
+  }
+}
